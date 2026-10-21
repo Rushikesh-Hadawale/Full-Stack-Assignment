@@ -1,4 +1,3 @@
-
 import './App.css';
 
 function Navbar() {
@@ -9,28 +8,21 @@ function Navbar() {
           src="//www.paypalobjects.com/webstatic/icon/pp258.png"
           alt="PayPal"
         />
-      </a>
-
-      
+      </a>      
       <nav className="nav-links">
         <a href="#personal">
           Personal <span className="arrow"></span>
         </a>
-
         <a href="#business">
           Business <span className="arrow"></span>
         </a>
-
         <a href="#partners">
           Partners <span className="arrow"></span>
         </a>
-
         <a href="#useful-info">
           Useful Info <span className="arrow"></span>
         </a>
       </nav>
-
-
       <div className="nav-buttons">
         <button className="login-button">Log In</button>
         <button className="signup-button">Sign Up</button>
@@ -38,7 +30,6 @@ function Navbar() {
     </header>
   );
 }
-
 function Hero() {
   return (
     <main className="hero" id="business">
@@ -46,16 +37,12 @@ function Hero() {
         <button className="toggle-option">Personal</button>
         <button className="toggle-option active">Business</button>
       </div>
-
       <h1>PayPal Open</h1>
-
       <h2>One platform for your business needs</h2>
-
       <p>
         PayPal Open unifies your PayPal business solutions to help you
         get paid, get growing, and get ahead.
       </p>
-
       <div className="hero-buttons">
         <button className="signup-button">Sign Up</button>
         <button className="contact-button">Contact Sales</button>
@@ -63,7 +50,6 @@ function Hero() {
     </main>
   );
 }
-
 function App() {
   return (
     <div className="app">
@@ -72,5 +58,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
